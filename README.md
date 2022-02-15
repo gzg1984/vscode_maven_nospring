@@ -16,3 +16,17 @@ apt install maven2
 ```
 mvn compile
 ```
+
+## Vscode requriement
+- tomcat for java
+- to use it:
+    - generate war from current folder
+    - add tomcat server like "/home/zhiganggao/apache-tomcat-8.5.75/"
+    - if you use no root remote IDE, you will not allowed to use /opt/apache-tomcat directly.
+    - so use tomcat in your home folder instead
+
+## Deploy access
+- http://localhost:8080/vscode_maven_nospring/src/main/webapp/
+
+## NO
+- nospring.war will be create by mvn package

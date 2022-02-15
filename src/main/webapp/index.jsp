@@ -1,6 +1,6 @@
 <html>
 <body>
-<h2>Hello World!  ss</h2>
+<h2>Hello World!</h2>
 <table border="1">
 	<tr> <th>Header</th><th>Value</th>
 	</tr>

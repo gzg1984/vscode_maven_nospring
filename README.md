@@ -26,7 +26,14 @@ mvn compile
     - so use tomcat in your home folder instead
 
 ## Deploy access
-- http://localhost:8080/vscode_maven_nospring/src/main/webapp/
+- http://localhost:8080/nospring
+    - this is the index.jsp in webapp
+    - has no servlet data string
+- http://localhost:8080/nospring/snoop
+    - this will access servlet as web.xml set , and forward to cnlxr/index.jsp
+    - tow index has different title
+    - has servlet data string
 
-## NO
+## NOTE!
 - nospring.war will be create by mvn package
+- sometimes mvn package doesn't create new war file. you need delete them all first
